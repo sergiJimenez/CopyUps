@@ -5,12 +5,10 @@ from get_repo_name import get_repo_name_from_url
 
 def multiple_repository():
     repo_urls = [
-        "https://github.com/sergiJimenez/twoHundred.git",
-        "https://github.com/sergiJimenez/exam_cafler.git",
-        "https://github.com/sergiJimenez/columbuscode.git"
-    ]
+        "",
+    ] # Introduce the repositories URL's
 
-    base_path = r"C:\Users\The Big Black Mamma\Desktop\Test"
+    base_path = r"" # Introduce the path where you would like to locate your repositories
 
     for repo_url in repo_urls:
         repo_name = get_repo_name_from_url(repo_url)

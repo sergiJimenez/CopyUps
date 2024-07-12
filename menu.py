@@ -6,9 +6,9 @@ def menu():
     
     while True:
         print("Press the corresponding number key to select an option:")
-        print("1. Clone a single repository.")
-        print("2. Clone multiple repositories, previously included in the script.")
-        print("0. Exit.")
+        print("1. Clone a single repository")
+        print("2. Clone multiple repositories, previously included in the script")
+        print("0. Exit")
 
         key = keyboard.read_key(suppress=True)
 
@@ -22,5 +22,5 @@ def menu():
             print("Goodbye!")
             break
         else:
-            print("Invalid choice. Please press 1, 2, or 0.")
+            print("Invalid choice. Please press 1, 2, or 0")
             print("\n")
