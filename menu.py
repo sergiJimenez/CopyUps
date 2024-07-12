@@ -1,8 +1,9 @@
-import keyboard
 from single_repository import single_repository
 from multiple_repository import multiple_repository
 
 def menu():
+    import keyboard
+    
     while True:
         print("Press the corresponding number key to select an option:")
         print("1. Clone a single repository.")

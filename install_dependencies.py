@@ -13,9 +13,9 @@ def install_dependencies():
         try:
             import keyboard
         except ModuleNotFoundError:
-            print("keyboard is not installed. Installing keyboard...")
+            print("Keyboard is not installed. Installing Keyboard...")
             subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'keyboard'])
-            print("keyboard has been successfully installed.")
+            print("Keyboard has been successfully installed.")
     
     except subprocess.CalledProcessError as e:
         print(f"Error during installation: {e}")
