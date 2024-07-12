@@ -32,6 +32,3 @@ def multiple_repository():
             print("Repository successfully cloned.")
         except Exception as e:
             print(f"An error occurred while cloning the repository {repo_url}: {e}")
-
-if __name__ == "__main__":
-    multiple_repository()
