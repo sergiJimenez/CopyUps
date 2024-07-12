@@ -1,5 +1,5 @@
-import keyboard
 from install_dependencies import install_dependencies
+import keyboard
 from title import print_title
 from single_repository import single_repository
 from multiple_repository import multiple_repository
