@@ -22,7 +22,7 @@ python --version
 
 A **VERY IMPORTANT** aspect to take into account is the fact that deleting directories through a terminal requires the use of a superuser (sudo), so we must run the program as administrators on Windows or use the `sudo su` command on Linux/Unix.
 
-## Instalation
+## Installation
 
 To install this repository you only need to clone it, as all the packages needed to use it will be installed the first time you run it.
 
