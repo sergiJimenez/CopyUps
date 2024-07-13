@@ -8,6 +8,9 @@
                          \ \_\     /\___/                 \ \_\                              
                           \/_/     \/__/                   \/_/                              
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/sergiJimenez/copyUps/blob/master/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/sergiJimenez/copyUps/blob/master/README.es.md)
+
 ## Description
 
 Copy-Ups! :O is a CLI developed in Python whose purpose is to clone one or multiple repositories. One of the functions that it has when you select either of the two features that this CLI gives you is the fact that if it finds a repository with the same name, it will delete that repository in order not to have copies of it.
