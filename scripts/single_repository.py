@@ -1,7 +1,7 @@
 import os
 import shutil
 from git import Repo
-from get_repo_name import get_repo_name_from_url
+from scripts.get_repo_name import get_repo_name_from_url
 
 def single_repository():
     repo_url = input("Enter the URL of the repository to clone: ")

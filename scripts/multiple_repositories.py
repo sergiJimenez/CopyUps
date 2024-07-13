@@ -1,9 +1,9 @@
 import os
 import shutil
 from git import Repo
-from get_repo_name import get_repo_name_from_url
+from scripts.get_repo_name import get_repo_name_from_url
 
-def multiple_repository():
+def multiple_repositories():
     repo_urls = [
         "",
     ] # Introduce the repositories URL's

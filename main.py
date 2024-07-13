@@ -1,6 +1,6 @@
-from install_dependencies import install_dependencies
-from title import print_title
-from menu import menu
+from scripts.install_dependencies import install_dependencies
+from scripts.title import print_title
+from scripts.menu import menu
 
 def main():
     install_dependencies()

@@ -1,5 +1,5 @@
-from single_repository import single_repository
-from multiple_repository import multiple_repository
+from scripts.single_repository import single_repository
+from scripts.multiple_repositories import multiple_repositories
 
 def menu():
     import keyboard
@@ -16,7 +16,7 @@ def menu():
             single_repository()
             break
         elif key == '2':
-            multiple_repository()
+            multiple_repositories()
             break
         elif key == '0':
             print("Goodbye!")
