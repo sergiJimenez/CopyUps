@@ -42,6 +42,6 @@ If this is the first time we run it, we will see that the necessary packages are
 
 - Clone a repository: this functionality allows us to clone the repository that we indicate. The first thing it will ask us for is the URL of the repository that we will have to write, or paste. And, finally, it will ask us for the path where we want to host the repository. If the repository already exists in the path we have previously indicated, it will delete it and clone the new one.
 - Clone multiple repositories: this functionality is similar to the previous one but requires a previous preparation. To use this functionality we will have to use a code editor, or a text editor, and open the file "multiple_repositories.py". In the string array called `repo_urls` we will add all the URL's of the repositories we want to clone and in the string variable `base_path` we will include the path where we want them to be copied.
-It is advisable to leave the "`r`" in front of the double quotes where we will introduce the path where we will host the repositories as this is in charge of formatting the paths in Windows as they use a backslash.
+It is highly recommended to leave the "`r`" in front of the double quotes where we will introduce the path where we will host the repositories as this is in charge of formatting the paths in Windows as they use a backslash.
 
 **IT IS IMPORTANT TO NOTE THAT PRIVATE REPOSITORIES WILL ASK FOR YOUR GITHUB USERNAME AND PASSWORD.**
